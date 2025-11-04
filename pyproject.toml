@@ -6,10 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "ligotools"
 version = "0.1.0"
 description = "LIGO tutorial tools"
+readme = "README.md"
+requires-python = ">=3.9"
 authors = [
     {name = "LIGO Scientific Collaboration (LSC)"},
     {name = "Justin Jiang"}
 ]
+license = {text = "For Stat 159 Fall 2025 HW 3"}
 dependencies = [
     "numpy",
     "matplotlib",
@@ -17,6 +20,10 @@ dependencies = [
     "h5py",
     "pytest"
 ]
+
+[project.urls]
+Homepage = "https://github.com/UCB-stat-159-f25/hw3-qjiang0910"
+Issues = "https://github.com/UCB-stat-159-f25/hw3-qjiang0910/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
