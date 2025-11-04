@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+version = "0.1.0"
+description = "LIGO tutorial tools"
+authors = [
+    {name = "LIGO Scientific Collaboration (LSC)"},
+    {name = "Justin Jiang"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "h5py",
+    "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ligotools*"]
