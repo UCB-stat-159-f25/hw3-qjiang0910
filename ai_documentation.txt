@@ -1,0 +1,3 @@
+AI Model: ChatGPT 5
+
+Used ChatGPT 5 to clarify concepts that I did not understand very clearly such as Makefile. used AI to pinpoint errors that occurred in the process of updating the LIGO notebook, notably an error that was occurring when I changed the output file path of audio files. Consulted AI on certain behaviors that I found a bit confusing when constructing MyST site, such as update/changes to the site that did not go as I had imagined when I edited myst.yml. Used AI to verify that the updated code/command outputs were working as intended to achieve what assignment instructions asked for.
